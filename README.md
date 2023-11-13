@@ -1,2 +1,6 @@
 ## buszmegallo
-Bella Richárd, Katona Valentin, Vörös Dominik
+| Résztvevők      | Feladatkör  | 
+| :-------------: | :--------:  |
+| Bella Richárd   | Repository  |
+| Katona Valentin | README file |
+| Vörös Dominik | Java project |
