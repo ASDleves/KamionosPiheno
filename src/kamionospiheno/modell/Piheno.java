@@ -10,4 +10,15 @@ package kamionospiheno.modell;
  */
 public class Piheno {
     
+    public Sofor soforok[];
+    public int ferohely;
+
+    public Piheno( int ferohely) {
+        
+        Sofor[] soforok = new Sofor[ferohely];
+        this.soforok=soforok;
+    }
+    
+    
+    
 }

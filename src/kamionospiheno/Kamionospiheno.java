@@ -4,6 +4,10 @@
  */
 package kamionospiheno;
 
+import kamionospiheno.modell.Emberek;
+import kamionospiheno.modell.FáradtSofőr;
+import kamionospiheno.modell.Sofor;
+
 /**
  *
  * @author voros.dominik
@@ -14,7 +18,10 @@ public class Kamionospiheno {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Emberek sf=new Sofor(10, "pista");
+        Emberek fsf=new FáradtSofőr(10, "gábor");
+        System.out.println(sf);
+                
     }
     
 }
