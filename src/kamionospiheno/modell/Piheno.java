@@ -1,13 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package kamionospiheno.modell;
-
-/**
- *
- * @author voros.dominik
- */
 public class Piheno {
+    private boolean behajtas;
+    Sofor sfr[] = new Sofor[5];
+
+    public Piheno(boolean behajtas) {
+        this.behajtas = behajtas;
+    }
+    
+    public void Pihenes(){
+        
+    }
+    
+    public void Felujitas(){
+        
+    }
+    
+    public void FelujitasVege(){
+        
+    }
     
 }
