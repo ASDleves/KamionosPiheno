@@ -6,6 +6,7 @@ package kamionospiheno;
 
 import kamionospiheno.modell.Emberek;
 import kamionospiheno.modell.FáradtSofőr;
+import kamionospiheno.modell.Piheno;
 import kamionospiheno.modell.Sofor;
 
 /**
@@ -18,10 +19,28 @@ public class Kamionospiheno {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Emberek sf=new Sofor(10, "pista");
-        Emberek fsf=new FáradtSofőr(10, "gábor");
-        System.out.println(sf);
-                
+        Emberek sf1 = new Sofor(10, "pista");
+        Emberek fsf2 = new FáradtSofőr(10, "gábor");
+        Emberek fsf3 = new FáradtSofőr(10, "gábor");
+        Emberek fsf4 = new FáradtSofőr(10, "gábor");
+        Emberek fsf5 = new FáradtSofőr(10, "gábor");
+        Emberek fsf6 = new FáradtSofőr(10, "gábor");
+
+        Piheno P = new Piheno();
+        P.befogad(sf1);
+        P.befogad(fsf2);
+        P.befogad(fsf3);
+        P.befogad(fsf4);
+        P.befogad(fsf5);
+        P.befogad(fsf6);
+        P.befogad(fsf6);
+        P.pihenes();
+        System.out.println("");
+        P.pihenes();
+        
+     
+        
+
     }
-    
+
 }

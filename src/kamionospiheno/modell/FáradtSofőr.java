@@ -19,7 +19,19 @@ public class FáradtSofőr extends Emberek{
         return oszto;
     }
     
-    
+            @Override
+      public void setKipihentseg(int kipihentseg) {
+         int  fáradtpihenes=this.getKipihentseg()+kipihentseg/2;
+        if (fáradtpihenes>100) {
+            fáradtpihenes=100;
+        } else if(fáradtpihenes<0){
+        fáradtpihenes=0;
+        }
+        
+       
+        this.kipihentseg = fáradtpihenes;
+    }
+   
     
 
     @Override

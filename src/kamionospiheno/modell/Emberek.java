@@ -9,13 +9,13 @@ package kamionospiheno.modell;
  * @author VörösDominik(SZF_202
 private int kipihentseg */
 public abstract class Emberek {
-    private int kipihentseg;
+    int kipihentseg;
     private String nev;
 
     public Emberek(int kipihentseg, String nev) {
         setKipihentseg(kipihentseg);
         this.nev = nev;
-        System.out.println(getNev());
+      
     }
    
     public int getKipihentseg() {
