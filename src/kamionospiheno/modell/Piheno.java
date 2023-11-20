@@ -35,6 +35,15 @@ public class Piheno {
     public void Pihenes(){
         if(allapot == PihenoAllapot.UZEMEL){
             for (Sofor sofor : soforok){
+                sofor.setFaradtsagSzint(50);
+                System.out.printf("Pihenő sofőr neve: %s, Pihenő sofőr pihentségi szintje: %d", sofor.getNev(), sofor.getFaradtsagSzint());
+            }
+        }
+    }
+    
+    public void szuperPihenes(){
+        if(allapot == PihenoAllapot.UZEMEL){
+            for (Sofor sofor : soforok){
                 sofor.setFaradtsagSzint(100);
                 System.out.printf("Pihenő sofőr neve: %s, Pihenő sofőr pihentségi szintje: %d", sofor.getNev(), sofor.getFaradtsagSzint());
             }
