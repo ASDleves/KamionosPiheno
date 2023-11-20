@@ -2,11 +2,11 @@ package modell;
 
 public abstract class Ember {
     private String Neve;
-    private int faradtsag;
+    private int kipihentseg;
 
     public Ember(String Neve) {
         this.Neve = Neve;
-        faradtsag = 0;
+        kipihentseg = 0;
     }
 
     public String getNeve() {
@@ -18,16 +18,16 @@ public abstract class Ember {
     }
 
     public int getFaradt() {
-        return faradtsag;
+        return kipihentseg;
     }
 
-    public void setFaradtsag(int faradtsag) {
-        this.faradtsag = faradtsag;
+    public void setKipihentseg(int kipihentseg) {
+        this.kipihentseg = kipihentseg;
     }
 
     @Override
     public String toString() {
-        return "Ember{" + "Neve=" + Neve + ", faradtsag=" + faradtsag + '}';
+        return "Ember{" + "Neve=" + Neve + ", kipihentség=" + kipihentseg + '}';
     }
 
     public abstract void pihenes();
