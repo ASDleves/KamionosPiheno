@@ -23,6 +23,13 @@ public abstract class Sofor {
     public void setFaradtsagSzint(int faradtsagSzint) {
         this.faradtsagSzint = faradtsagSzint;
     }
+
+    @Override
+    public String toString() {
+        return "Sofor{" + "nev=" + nev + ", faradtsagSzint=" + faradtsagSzint + '}';
+    }
+    
+    
     
     
 }
