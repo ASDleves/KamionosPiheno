@@ -8,7 +8,7 @@ package kamionospiheno;
  *
  * @author voros.dominik
  */
-public class Kamionospiheno {
+public class PihenoProgram {
 
     /**
      * @param args the command line arguments

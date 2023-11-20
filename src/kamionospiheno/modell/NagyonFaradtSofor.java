@@ -8,6 +8,6 @@ package kamionospiheno.modell;
  *
  * @author voros.dominik
  */
-public class kamion {
+public class NagyonFaradtSofor {
     
 }

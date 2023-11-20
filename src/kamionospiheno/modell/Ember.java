@@ -6,8 +6,8 @@ package kamionospiheno.modell;
 
 /**
  *
- * @author voros.dominik
+ * @author katona.v.fabio
  */
-public class napelemeskamion {
+public class Ember {
     
 }

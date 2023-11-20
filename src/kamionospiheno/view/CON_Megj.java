@@ -8,6 +8,6 @@ package kamionospiheno.view;
  *
  * @author voros.dominik
  */
-public class consolosmegj {
+public class CON_Megj {
     
 }
